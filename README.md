@@ -8,6 +8,31 @@ TypeScript is an open-source language which builds on JavaScript, one of the wor
 
 Types provide a way to describe the shape of an object, providing better documentation, and allowing TypeScript to validate that your code is working correctly.
 
+# How install Node.js
+
+> Working on it
+
+# How install TypeScript
+
+You can install TypeScript via npm.
+Go to your project folder and open your command line and write this:
+
+```
+npm install -g typescript
+```
+
+# How compile your app.ts
+
+In your project folder open your command line and write this:
+
+```
+tsc app.ts
+```
+
+# How run my application
+
+> Working on it
+
 # Good practices
 
 If the value are not directly initialized into a function/class we can defined it like that:
