@@ -33,6 +33,26 @@ tsc app.ts
 
 > Working on it
 
+# See all your change instantly
+
+Set a project for typescript understand this project are managed by TypeScript
+
+```
+tsc --init
+```
+
+if you want to compile all of your *.ts files now you can use this command:
+
+```
+tsc
+```
+
+We can too refresh our browser instantly with command for all the project:
+
+```
+tsc --watch
+```
+
 # Good practices
 
 If the value are not directly initialized into a function/class we can defined it like that:
