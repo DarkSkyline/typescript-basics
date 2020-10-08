@@ -1,0 +1,23 @@
+{
+  "name": "typescript-basics",
+  "version": "1.0.0",
+  "description": "This repository was created to learn more about the typescript programming language.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkSkyline/typescript-basics.git"
+  },
+  "author": "Filipe Ferreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarkSkyline/typescript-basics/issues"
+  },
+  "homepage": "https://github.com/DarkSkyline/typescript-basics#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
