@@ -17,7 +17,8 @@ enum Role { ADMIN = 5, READ_ONLY = 2, AUTHOR = 1 };
 // const READ_ONLY = 1;
 // const AUTHOR = 2;
 
-const person = {
+const person = 
+{
     name: 'Filipe',
     age: 30,
     hobbies: ['Sports','Tecnology'],
@@ -34,11 +35,13 @@ favoriteActivities = ['Sports'];
 console.log(person);
 
 //From javascript
-for (const hobby of person.hobbies){
+for (const hobby of person.hobbies)
+{
     console.log(hobby.toUpperCase());
     //console.log(hobby.map()); !!! ERROR !!!
 }
 
-if(person.role === Role.AUTHOR){
+if(person.role === Role.AUTHOR)
+{
     console.log('is author');
 }
