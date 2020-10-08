@@ -2,7 +2,6 @@
 console.log('your code goes here!');
 function addNumber(n1, n2, showResult) {
     console.log(typeof n1);
-    // How verify the types without TypeScript
     if (typeof n1 !== 'number' && typeof n2 !== 'number') {
         throw new Error('Incorrect input');
     }
